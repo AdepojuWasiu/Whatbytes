@@ -21,8 +21,10 @@ const UpdateScores = () => {
           return (
               <div key={index} className="flex justify-between items-center">
                 <div className="flex items-center justify-center text-[15px] gap-[20px]">
-                  <div className="py-[0.2px] px-[6px] rounded-full bg-blue-900 text-white">{item.number}</div>
-                  <p className="font-semibold">Update your <span className="font-black">{item.update}</span></p>
+                  <div className="py-[0.2px] px-[6px] rounded-full
+                   bg-blue-900 text-white">{item.number}</div>
+                  <p className="font-semibold">Update your <span className="font-black">
+                      {item.update}</span></p>
                 </div>
               </div>
           )
