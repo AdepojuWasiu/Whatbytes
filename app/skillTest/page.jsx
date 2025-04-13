@@ -8,7 +8,7 @@ const SkillTest = () => {
   return (
     <div className={`pl-[35px] pt-[30px] pr-[10px] flex flex-col w-full pb-[100px] relative ${inputData.popup && 'bg-gray-300'}`}>
       <h1 className='font-semibold mb-[20px] text-gray-500'>Skill Test</h1>
-      <div className='grid grid-cols-[1.5fr_1fr] gap-[25px]'>
+      <div className='grid lg:grid-cols-[1.5fr_1fr] grid-cols-1  gap-[25px]'>
           <div className='flex flex-col gap-[20px]'>
               <HyperText />
               <QuickStats />
